@@ -8,7 +8,7 @@ const app = express();
 const PORT = 5000;
 
 // Conexión a MongoDB
-mongoose.connect("mongodb://localhost:27017/formDB", {
+mongoose.connect("mongodb://localhost:27017/local", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
